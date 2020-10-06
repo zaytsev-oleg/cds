@@ -2,6 +2,7 @@
 Data structures (containers) supporting concurrency
 
 Lock-based containers:
+
 0. concurrent_stack,
 1. concurrent_queue,
 2. concurrent_queue_fast,
@@ -9,6 +10,7 @@ Lock-based containers:
 4. concurrent_list
 
 Lock-free containers:
+
 0. lock_free_stack_pop_count,
 1. lock_free_stack_hp,
 2. lock_free_queue_ref_count,
