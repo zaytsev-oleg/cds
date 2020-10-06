@@ -13,7 +13,7 @@ Lock-free containers:
 
 0. lock_free_stack_pop_count,
 1. lock_free_stack_hp,
-2. lock_free_queue_ref_count,
+2. lock_free_stack_ref_count,
 3. lock_free_queue_ref_count,
 4. exp_stack_atomic_shared_ptr.
 
