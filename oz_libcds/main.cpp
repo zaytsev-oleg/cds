@@ -12,7 +12,7 @@
 
 #include "lock_free_stack_pop_count.h"
 #include "lock_free_stack_hp.h"
-#include "lock_free_queue_ref_count.h"
+#include "lock_free_stack_ref_count.h"
 #include "lock_free_queue_ref_count.h"
 #include "exp_stack_atomic_shared_ptr.h"
 
