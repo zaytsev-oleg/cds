@@ -26,7 +26,7 @@ int main()
 		int len = 5;
 		long chunk = 1 * 1000000;
 
-		initializer_list<int> init_list{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+		initializer_list<int> init_list{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
 		lock_free_queue_ref_count<int> myBag(init_list);
 
 		auto reader = [&](double d)->void
